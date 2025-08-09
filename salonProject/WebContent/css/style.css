@@ -1,0 +1,147 @@
+
+@charset "UTF-8";
+
+* {margin: 0; padding: 0;}
+html, body {width: 1200px; margin: 0 auto;}
+a {text-decoration: none;}
+a:hover { text-decoration: underline; }
+
+/* 회원가입, 로그인 page */
+#login {
+  width: 350px; height: 480px;
+  border: 2px solid #BFB2AA;
+  border-radius: 10px;
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+#join {
+  width: 385px; height: 610px;
+  border: 2px solid #BFB2AA;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding-left: 25px;
+  text-align: left;
+}
+#login_form{
+	
+  vertical-align: middle;
+}
+
+
+/* view_reservation_details page */
+#view {
+  width: 450px;
+  height: 450px;
+  border: 2px solid #BFB2AA;
+  border-radius: 10px;
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* reservation 관련 page */
+#left{
+  float: left;
+  width: 590px; height: 600px;
+  background-color: #D9D9D9;
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  margin-top: 20px;
+}
+#right{
+  float: right;
+  width: 590px; height: 600px;
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  margin-top: 20px;
+}
+
+/* index page */
+#image{
+  background-color: #BFB2AA;
+  height: 450px; margin-top: 10px;
+  text-align: center;
+  color: rgba(255,255,255,0.5);
+  font-size: 50px;
+  padding-top: 50px;
+}
+#notice {
+  background-color: #D9D9D9;
+  height: 150px; margin-top: 10px;
+  color: black;
+  font-size: 18px;
+  padding: 50px;
+}
+#notice a:link { color:#402E24; }  
+#notice a:visited { color:#402E24; } 
+#notice a:hover { color:#402E24; text-decoration: underline;}
+#notice a:active { color:#402E24;}
+
+
+/* 예약하러가기 버튼 */
+.reservation_btn{
+  width: 200px; height: 35px;
+  background: #8C6E68;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+.list_btn, .insert_btn{
+  width: 200px; height: 35px;
+  background: #BFB2AA; color: white;
+  border: none;
+  font-size: 15px;
+}
+.change_btn {
+  width: 97px; height: 30px;
+  background: #FFFFFF; color: #8C6E68;
+  border: 1px solid #8C6E68;
+  font-size: 15px;
+  marign-bottom: 10px;
+}
+
+/* board page */
+#select_category{
+  margin-top: 30px; margin-bottom: 10px; margin-left: 115px;
+  text-align: left;
+}
+#new_btn{
+  width: 80px; height: 25px;
+  float: right;
+  border: 1px solid #BFB2AA;
+  color: #8C6E68;
+  margin-right: 116px;
+}
+
+/* 예약 page */
+.btn{
+  width: 100px; height: 30px;
+  margin-bottom: 10px;
+}
+.lecture_btn{
+  width: 160px; height: 50px;
+}
+#select_designer, #select_treatment, #select_lecture, #select_date, #select_time{
+  margin-top: 20px; margin-bottom: 30px;
+}
+
+#timeselect label{
+	width: 100px;	
+}
+
+
+#calender{
+}
+#calender tr{
+	font-size: 15px;
+	height: 30px;
+}
+#dateBtn{
+	width: 100%; height: 30px;
+	background-color:transparent;
+	border:0px solid transparent;
+}
+#result tr { border-bottom: 1px solid black; }
+#reulst tr { border-right: 1px solid black; }

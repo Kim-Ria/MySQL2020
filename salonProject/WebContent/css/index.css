@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+* {margin: 0; padding: 0;}
+html, body { margin: 0; height: 100%; overflow: hidden; }
+
+#salon, #academy {
+  width: 50%; height: 100%; overflow: hidden;
+  color: rgba(255,255,255,0.5);
+  text-align: center;
+  font-size: 50px;
+}
+
+#salon {
+  float: left;
+  background: #A6837B;
+}
+
+#academy {
+  float: right;
+  background: #BFB2AA;
+}
+
+#logo{
+  width: 14%; height: 200px; overflow: hidden;
+  text-align: center;
+  align: center;
+  position: absolute;
+  top: 35%; left: 43%;
+}
